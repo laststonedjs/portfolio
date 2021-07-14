@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+
+import homeAnime from './../../assets/home_anime.gif';
 import './Home.css';
 
 class Home extends Component {
@@ -13,8 +15,17 @@ class Home extends Component {
                 </div>
                 <div className="head-btns">
                 <Link to="/about" className="btn btn-white">
-                    <p className="btn-text">More about me!</p>
+                    <p className="btn-text">More about me</p>
                 </Link>
+                <Link to="/contact" className="btn btn-transparent">
+                    <p className="btn-text">Connect with me</p>
+                </Link>
+                </div>
+                <div className="splash-image">
+                    <img src={homeAnime} 
+                    alt="animation" 
+                    className="home-anime" 
+                    />
                 </div>
             </div>
         );
