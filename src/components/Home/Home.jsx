@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
+
 import homeAnime from './../../assets/home_anime.gif';
 import './Home.css';
 
@@ -8,7 +9,7 @@ class Home extends Component {
     render () {
         return (
             <div className="home-container">
-                <div className="header-text">
+                   <div className="header-text">
                     <h1>Welcome to my Portfolio!</h1>
                     <p>This is Filip! Frontend JavaScript Developer</p>
 
