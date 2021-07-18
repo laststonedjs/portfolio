@@ -16,8 +16,8 @@ export const skillList = [
         skillUrl: 'https://madhavbahl.tech/portfolio-assets/react.png',
     },
     {
-        skillName: 'Redux',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/redux.png',
+        skillName: 'Angular',
+        skillUrl: 'https://raw.githubusercontent.com/laststonedjs/portfolio/master/src/assets/angular_icon.png',
     },
     {
         skillName: 'NodeJS',
@@ -27,16 +27,7 @@ export const skillList = [
         skillName: 'TypeScript',
         skillUrl: 'https://madhavbahl.tech/portfolio-assets/ts.png',
     },
-    {
-        skillName: 'Java',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/java.png',
-    },
-    {
-        skillName: 'C#',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/cs.png',
-    },
-    {
-        skillName: 'MongoDB',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/mongo.png',
-    },
+    
+    
+   
 ];
