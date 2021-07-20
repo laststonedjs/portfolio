@@ -5,6 +5,7 @@ body {
   width: 100%;
   overflow-x: hidden;
   font-family: "Poppins", sans-serif;
+  background-color: #c8d9ea;
 }
 
 input:focus,

@@ -24,6 +24,10 @@ export const skillList = [
         skillUrl: 'https://madhavbahl.tech/portfolio-assets/node.png',
     },
     {
+        skillName: 'MySQL Workbench',
+        skillUrl: 'https://raw.githubusercontent.com/laststonedjs/portfolio/master/src/assets/MySQL.png',
+    },
+    {
         skillName: 'TypeScript',
         skillUrl: 'https://madhavbahl.tech/portfolio-assets/ts.png',
     },

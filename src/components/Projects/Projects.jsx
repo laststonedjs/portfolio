@@ -1,11 +1,23 @@
 import React from 'react';
+import FooterLink from '../FooterLink/FooterLink';
+import Header from '../Header/Header';
 import './Projects.css';
 
 const Projects = () => {
     return (
         <div className="section-container">
-            <h1>I am Projects page!</h1>
-        </div>
+            <Header heading="My Projects."
+            details="Here are a few cool things I've worked on, check them out!"
+            />
+
+
+
+            <FooterLink phrase="Check out "
+                        link="my skills!"
+                        toAddress="/skills"
+                        />
+
+            </div>
     );
 };
 
