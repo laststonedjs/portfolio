@@ -12,10 +12,11 @@ const Projects = () => {
 
 
 
-            <FooterLink phrase="Check out "
-                        link="my skills!"
-                        toAddress="/skills"
-                        />
+            <FooterLink 
+            phrase="Check out "
+            link="my skills!"
+            toAddress="/skills"
+                />
 
             </div>
     );

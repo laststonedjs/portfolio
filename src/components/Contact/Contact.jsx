@@ -15,8 +15,34 @@ const Contact = () => {
                 details="Interested to collaborate? Feel free to drop me an email."
                     />
 
-            {/* Social icons */}
+            {/* Form section */}
+            <div className="contact-form-container">
+                <form className="contact-form">
+                    {/* Email Id Input */}
+                    <input 
+                        type="text"
+                        placeholder="Your Email Id"
+                        name="email"
+                        className="input-box email-input"
+                     />
 
+                     {/* Email Body */}
+                    <textarea 
+                        type="text"
+                        placeholder="Your message"
+                        name="message"
+                        className="input-box body-input">
+
+                        </textarea>
+                <button type="submit"
+                        className="contact-btn">
+                    Send Email
+                </button>
+                </form>
+            </div>
+
+
+            {/* Social icons */}
             <div className="social-icon-container">
                 <a href="https://github.com/laststonedjs" className="social-icon">
                     <img src={github} alt="social" />
