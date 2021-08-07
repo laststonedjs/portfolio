@@ -17,12 +17,15 @@ const Contact = () => {
 
             {/* Form section */}
             <div className="contact-form-container">
-                <form className="contact-form">
+            <form className="contact-form"
+                    action="https://formspree.io/f/mzbyjove"
+                    method="POST">
+
                     {/* Email Id Input */}
                     <input 
                         type="text"
                         placeholder="Your Email Id"
-                        name="email"
+                        name="_replyto"
                         className="input-box email-input"
                      />
 
