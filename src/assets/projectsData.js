@@ -12,8 +12,8 @@ export const projectsData = [
     {
         projectName: 'Recipe Book',
         projectDescription:
-            '',
-        imageUrl: 'https://raw.githubusercontent.com/laststonedjs/portfolio/master/src/assets/angular_icon.png',
+            'It is an application where you can make your own favorit recipe, also there is possibility adding ingredients and manipulating the same. You can modify the created recipe in Shopping List. Jump into cullinary magic!',
+        imageUrl: 'https://raw.githubusercontent.com/laststonedjs/portfolio/master/src/assets/recipes.png',
             projectUrl: 'https://github.com/laststonedjs/recipe-book',
     },
     
@@ -24,6 +24,14 @@ export const projectsData = [
         imageUrl: 'https://madhavbahl.tech/portfolio-assets/proj4.PNG',
     
         projectUrl: 'http://theleanprogrammer.com/pokedex/',
+    },
+    {
+        projectName: 'Tic-Tac-Toe',
+        projectDescription:
+            "It is my first mini game project which I worked during school. Enjoy and have some fun!",
+        imageUrl: 'https://raw.githubusercontent.com/laststonedjs/TicTacToe/master/tic%20tac.jpg',
+    
+        projectUrl: 'https://github.com/laststonedjs/TicTacToe',
     },
     
 ];
